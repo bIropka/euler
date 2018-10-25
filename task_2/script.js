@@ -23,3 +23,19 @@ function getSumma(number) {
     return summa;
 
 }
+
+/*var array = [0, 1];
+
+for (var i = 2; i <= 100; i++) {
+    array[i] = array[i - 2] + array[i - 1];
+}
+
+var filterArra = array.filter(function (el) {
+    if (el % 2 === 0 && el < 4000000) return el
+});
+
+var summ = filterArra.reduce(function (sum, current) {
+    return sum + current;
+}, 0);
+
+console.log(summ);*/
