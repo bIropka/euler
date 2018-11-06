@@ -1,12 +1,12 @@
 var startTime, finishTime;
 
 startTime = new Date();
-console.log(getNumber(20));
+console.log(getNumber(200));
 finishTime = new Date();
 
 console.log((finishTime - startTime)/1000 + ' sec');
 
-function getNumber(number) {
+/*function getNumber(number) {
 
     var result = number, done = false;
 
@@ -20,7 +20,7 @@ function getNumber(number) {
 
     return result;
 
-}
+}*/
 
 function checkResult(result, number) {
 
@@ -32,7 +32,7 @@ function checkResult(result, number) {
 
 }
 
-/*function getNumber(number) {
+function getNumber(number) {
 
     var primeDenominator = getPrimesDenominator(number), done = false, result = primeDenominator;
 
@@ -75,4 +75,4 @@ function getPrimesDenominator (number) {
 
     return result;
 
-}*/
+}
