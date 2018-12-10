@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f0042a8-7cd8-4e5d-90ca-20d8333215fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/____traffic-light/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/____traffic-light/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/____traffic-light/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_7/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/task_7/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_8/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_8/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task_7/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
@@ -26,6 +24,15 @@
                 <element signature="n#!!block;n#checkPrimes#0" />
                 <element signature="n#!!block;n#getEratothen#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task_8/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -61,6 +68,7 @@
         <option value="$PROJECT_DIR$/____traffic-light/styles.css" />
         <option value="$PROJECT_DIR$/____traffic-light/index.html" />
         <option value="$PROJECT_DIR$/task_7/script.js" />
+        <option value="$PROJECT_DIR$/task_8/script.js" />
       </list>
     </option>
   </component>
@@ -95,7 +103,7 @@
             <path>
               <item name="euler" type="b2602c69:ProjectViewProjectNode" />
               <item name="euler" type="462c0819:PsiDirectoryNode" />
-              <item name="task_7" type="462c0819:PsiDirectoryNode" />
+              <item name="task_8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (5)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/euler/____traffic-light/index.html">
       <method v="2" />
     </configuration>
@@ -142,26 +150,26 @@
     <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/euler/task_5/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/euler/task_7/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/euler/task_8/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/euler/task_4/index.html">
+    <configuration name="index.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/euler/task_7/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.index.html (3)" />
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.index.html (5)" />
+      <item itemvalue="JavaScript Debug.index.html (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html (5)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -188,12 +196,12 @@
       <workItem from="1541146688877" duration="100000" />
       <workItem from="1541163908999" duration="2924000" />
       <workItem from="1541504425109" duration="2137000" />
-      <workItem from="1544440055933" duration="3885000" />
+      <workItem from="1544440055933" duration="5754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47257000" />
+    <option name="totallyTimeSpent" value="49126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -321,6 +329,13 @@
             <element signature="n#!!block;n#checkPrimes#0" />
             <element signature="n#!!block;n#getEratothen#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_8/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
