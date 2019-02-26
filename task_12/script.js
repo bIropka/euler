@@ -1,4 +1,6 @@
-console.log(getResult(500));
+var isPrime = getEratosthen(10000);
+
+console.log(getResult(501));
 
 function getResult(divisors) {
 
@@ -8,13 +10,31 @@ function getResult(divisors) {
 
     while (currentDivisors <= divisors) {
         currentTriangle = ++currentIndex + currentTriangle;
-        currentDivisors = getCurrentDivisors(currentTriangle);
+        currentDivisors = getCurrentDivisors(currentTriangle, isPrime);
     }
 
     return currentTriangle;
 
 }
 
-function getCurrentDivisors(number) {
+function getCurrentDivisors(number, isPrime) {
+    var primes = 0;
+    while(number > 0) {
 
+    }
+}
+
+function getEratosthen(limit) {
+    var result = [true, true, true];
+    for (var i = 2; i <= limit; i++) {
+        if (result[i] === false) {
+            continue;
+        } else {
+            result[i] = true;
+        }
+        for (var j = i * 2; j <= limit; j += i) {
+            result[j] = false;
+        }
+    }
+    return result;
 }
